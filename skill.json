@@ -1,0 +1,44 @@
+{
+  "name": "sales-post-call-agent-skill",
+  "version": "1.0.0",
+  "description": "Analyze sales call transcripts to extract buyer pain points, summarize next actions, update CRM variables, and draft a follow-up email.",
+  "author": "alphaparkinc",
+  "category": "sales",
+  "tags": [
+    "sales",
+    "call-analysis",
+    "crm-update",
+    "follow-up",
+    "nlp"
+  ],
+  "inputs": {
+    "call_transcript": {
+      "type": "string",
+      "description": "Text transcript of the sales call."
+    },
+    "customer_name": {
+      "type": "string",
+      "description": "Name of the customer/prospect."
+    }
+  },
+  "outputs": {
+    "summary": {
+      "type": "string",
+      "description": "High-level summary of the call."
+    },
+    "pain_points": {
+      "type": "array",
+      "description": "Detected customer issues or complaints."
+    },
+    "crm_updates": {
+      "type": "object",
+      "description": "Key fields to update: {lead_status, deal_size_estimate, next_action_date}."
+    },
+    "follow_up_email": {
+      "type": "string",
+      "description": "Draft follow-up email ready for editing."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
