@@ -1,4 +1,4 @@
-# sales-post-call-agent-skill
+# genpark-sales-post-call-agent-skill
 
 > **GenPark AI Agent Skill** -- Auto-transcribe analysis, CRM field mapper, and email draft writer.
 
