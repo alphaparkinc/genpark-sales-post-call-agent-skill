@@ -1,5 +1,5 @@
 {
-  "name": "sales-post-call-agent-skill",
+  "name": "genpark-sales-post-call-agent-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Analyze sales call transcripts to extract buyer pain points, summarize next actions, update CRM variables, and draft a follow-up email.",
   "author": "genpark",
